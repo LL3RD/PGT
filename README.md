@@ -46,11 +46,11 @@ Your can download [BRCA Dataset and Checkpoint](https://drive.google.com/file/d/
 | PGT    | 0.799 | 0.523 | [Checkpoint](https://drive.google.com/file/d/1R6IBHoPKCCeHloog_3E8UVkifHyED2bO/view?usp=sharing)| [Config](./configs/Swin_BRCA_PGT.py) |
 
 ### Lizard Dataset
-Your can download [Original Lizard](https://warwick.ac.uk/fac/cross_fac/tia/data/lizard) from the official website or [Preprocessed Lizard and Checkpoint](zzz) that is converted to hovernet consep format and split into patches.
+Your can download [Original Lizard](https://warwick.ac.uk/fac/cross_fac/tia/data/lizard) from the official website or [Preprocessed Lizard and Checkpoint](https://drive.google.com/file/d/14TFGZxc2eQPya62ITTBad1UdcMTEzJe_/view?usp=sharing) that is converted to hovernet consep format and split into patches.
 
-| Method | F1d   | F1c   | Model Weights     | Config Files                           |
-|--------|-------|-------|-------------------|----------------------------------------|
-| PGT    | 0.779 | 0.538 | [Checkpoint](zzz) | [Config](./configs/Swin_Lizard_PGT.py) |
+| Method | F1d   | F1c   | Model Weights  | Config Files                           |
+|--------|-------|-------|----------------|----------------------------------------|
+| PGT    | 0.779 | 0.538 | [Checkpoint](https://drive.google.com/file/d/14TFGZxc2eQPya62ITTBad1UdcMTEzJe_/view?usp=sharing) | [Config](./configs/Swin_Lizard_PGT.py) |
 
 
 ## Training
