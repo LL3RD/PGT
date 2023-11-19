@@ -54,7 +54,11 @@ Your can download [Original Lizard](https://warwick.ac.uk/fac/cross_fac/tia/data
 
 
 ## Training
-Modify your dataset path in configs and run
+The training contains two phases, In the pre-tuning phase, modify your dataset path in configs/Swin_BRCA.py and run
+```
+CUDA_VISIBLE_DEVICES=0 bash tools/dist_train.sh configs/Swin_CoNSeP.py 1 --work-dir=Path_to_your_work_dir
+```
+Then modify the load_from path in configs/Swin_CoNSeP_PGT.py and run
 ```
 CUDA_VISIBLE_DEVICES=0 bash tools/dist_train.sh configs/Swin_CoNSeP_PGT.py 1 --work-dir=Path_to_your_work_dir
 ```
