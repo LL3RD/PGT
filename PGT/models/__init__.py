@@ -1,3 +1,4 @@
 from .prompt_swin_transformer import PromptedSwinTransformer
 from .ddetr_head_celldet_GP_Modify import DeformableDETRHead_CellDet_GP_Modify
 from .ddetr_celldet_prompt_GP import DeformableDETR_CellDet_Prompt_GP
+from .ddetr_celldet import DeformableDETR_CellDet
